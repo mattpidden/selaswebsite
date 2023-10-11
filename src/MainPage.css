@@ -1,0 +1,64 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Three equal columns */
+  gap: 20px; /* Spacing between columns */
+  margin: 20px; /* Add some margin around the whole container */
+}
+
+.left-column, .middle-column, .right-column {
+  background-color: #e8ecf0; /* Light gray background */
+  padding: 20px; /* Add some padding inside each column */
+}
+
+.left-column img, .right-column img {
+  max-width: 100%; /* Make sure the images don't exceed the column width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.main-page {
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tab {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: #f0f0f0;
+}
+
+.tabContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 3em;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% { color: rgb(255, 115, 0); }
+  20% { color: rgb(255, 251, 0); }
+  30% { color: rgb(0, 255, 55); }
+  40% { color: rgb(0, 225, 255); }
+  500% { color: rgb(0, 68, 255); }
+  60% { color: rgb(119, 0, 255); }
+  70% { color: rgb(195, 0, 255); }
+  80% { color: rgb(255, 0, 0); }
+  90% { color: rgb(255, 255, 255); }
+  100% { color: rgb(0, 0, 0); }
+}
+
