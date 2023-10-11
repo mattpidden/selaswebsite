@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/selaswebsite/static/css/main.4ae0f3a3.css",
-    "main.js": "/selaswebsite/static/js/main.69a88e34.js",
+    "main.js": "/selaswebsite/static/js/main.c8f58dda.js",
     "static/js/787.687fc5a8.chunk.js": "/selaswebsite/static/js/787.687fc5a8.chunk.js",
     "static/media/right-image.jpg": "/selaswebsite/static/media/right-image.bf3382a538e140c58aaf.jpg",
     "index.html": "/selaswebsite/index.html",
     "main.4ae0f3a3.css.map": "/selaswebsite/static/css/main.4ae0f3a3.css.map",
-    "main.69a88e34.js.map": "/selaswebsite/static/js/main.69a88e34.js.map",
+    "main.c8f58dda.js.map": "/selaswebsite/static/js/main.c8f58dda.js.map",
     "787.687fc5a8.chunk.js.map": "/selaswebsite/static/js/787.687fc5a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ae0f3a3.css",
-    "static/js/main.69a88e34.js"
+    "static/js/main.c8f58dda.js"
   ]
 }
