@@ -1,3 +1,3 @@
 
 **Website Link**
-https://github.com/mattpidden/selaswebsite/
+https://mattpidden.github.io/selaswebsite/
